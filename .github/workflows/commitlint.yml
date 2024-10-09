@@ -1,4 +1,4 @@
-name: Quarkus project Commitlint
+name: Next.js project Commitlint
 
 on:
   pull_request:

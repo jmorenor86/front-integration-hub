@@ -50,7 +50,7 @@ export default function Marketplace() {
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredApps.map((app) => (
-          <Card key={app.id} className="cursor-pointer hover:shadow-lg transition-shadow duration-200" onClick={() => handleCardClick(app.id)}>
+          <Card key={app.id} className="cursor-pointer hover:shadow-lg transition-shadow duration-200">
             <CardHeader>
               <CardTitle>{app.name}</CardTitle>
               <CardDescription>{app.type}</CardDescription>
