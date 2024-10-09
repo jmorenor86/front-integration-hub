@@ -1,6 +1,6 @@
 "use client";
 // pages/index.tsx
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import ReactFlow, {
   MiniMap,
   Controls,
@@ -72,12 +72,6 @@ const FlowPage = () => {
   const generateNotebook = () => {
     // Lógica para generar un notebook (actualmente solo imprime los nodos en la consola)
     console.log("Generando Notebook con los siguientes nodos:");
-    console.log(nodes);
-  };
-
-  const createJob = () => {
-    // Lógica para crear un job
-    console.log("Creando job con los siguientes nodos:");
     console.log(nodes);
   };
 
